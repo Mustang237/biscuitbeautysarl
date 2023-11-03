@@ -81,6 +81,12 @@ $table_prefix = 'wp_';
  */
 define( 'WP_DEBUG', false );
 
+@ini_set( 'upload_max_filesize' , '128M' );
+@ini_set( 'post_max_size', '128M');
+@ini_set( 'memory_limit', '256M' );
+@ini_set( 'max_execution_time', '300' );
+@ini_set( 'max_input_time', '300' );
+
 /* Add any custom values between this line and the "stop editing" line. */
 
 
